@@ -1,0 +1,9 @@
+name: Full Backup 2026-09-14
+on:
+  push:
+    branches: [backup/full-2026-09-14]
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo preparing backup
